@@ -36,7 +36,7 @@ Prerequisites
 Installation
 
 1. Clone the repository:
-    git clone https://github.com/yourusername/tfl-bdd-tests.git 
+    git clone https://github.com/ShashidharShastri/tfl-bdd-tests.git
     cd tfl-bdd-tests
 2. Install the dependencies:
     npm install
