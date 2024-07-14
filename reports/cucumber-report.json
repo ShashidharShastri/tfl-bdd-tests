@@ -1,0 +1,202 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "tfl-journey-planning;plan-the-quickest-journey-from-notting-hill-gate-to-southbank-centre",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Plan the quickest journey from Notting Hill Gate to Southbank Centre",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am at \"69 Notting Hill Gate, London\"",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379872500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I want to go to \"Southbank Centre, London\"",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239829100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I plan the quickest journey",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3513277100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the quickest journey plan",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3694899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "tfl-journey-planning;plan-the-journey-from-notting-hill-gate,-london-to-bristol-temple-meads",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Plan the journey from Notting Hill Gate, London to Bristol Temple Meads",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am at \"69 Notting Hill Gate, London\"",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 352910099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I want to go to \"Bristol Temple Meads, Bristol\"",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 335538000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I plan the journey",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3319945100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the journey plan",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10808200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "tfl-journey-planning;plan-a-journey-from-luton-airport-to-notting-hill-gate,-arriving-by-8:50am",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Plan a journey from Luton Airport to Notting Hill Gate, arriving by 8:50am",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am arriving at \"Luton Airport\" next Wednesday",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220371699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I need to be at \"69 Notting Hill Gate, London\" by \"08:50\"",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400048600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I plan the latest possible departure journey",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3023398000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the latest possible departure time",
+            "match": {
+              "location": "file:\\C:\\Thejaswini\\tfl-bdd-tests\\src\\step_definitions\\journey-planning-steps.js:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5501599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "tfl-journey-planning",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "TfL Journey Planning",
+    "tags": [],
+    "uri": "features\\journey-planning.feature"
+  }
+]
