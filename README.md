@@ -55,6 +55,27 @@ Running Tests
 To run the Cucumber tests, use the following command:
 npm run cucumber-test
 
+Running Tests Using Docker
+You can run the tests using a Docker container. Follow the steps below to build the Docker image and run the tests.
+
+Prerequisites
+- Docker installed on your machine.
+
+Steps
+1. Build the Docker Image:
+   Open a terminal and navigate to the root directory of the repository. 
+   Run the following command to build the Docker image: docker build -t tfl-bdd-tests .
+
+2. Run the Tests:
+   After the image is built, you can run the tests using the following command:
+   Run the following command to run the tests: docker run --rm -e API_APP_KEY=your-tfl-api-key -e OPENCAGE_API_KEY=your-opencage-api-key tfl-bdd- 
+   tests
+
+Explanation
+ Replace `your-tfl-api-key` and `your-opencage-api-key` with your actual API keys.
+ - `docker build -t tfl-bdd-tests .`: This command builds a Docker image with the tag `tfl-bdd-tests` using the Dockerfile in the current directory.
+ - `docker run --rm -e API_APP_KEY=your-tfl-api-key -e OPENCAGE_API_KEY=your-opencage-api-key tfl-bdd-tests
+
 Generating Reports
 
 After running the tests, you can generate an HTML report using:
